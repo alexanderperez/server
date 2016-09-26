@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <link href="/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <form id="form" action="http://api.openweathermap.org/data/2.5/weather" method="get">
+            <input type="text" name="q" id="q"/>
+            
+            <input type="hidden" name="appid" value="afd4c2364f625dda3ce7deb8143bfde3"/>
+            <input type="hidden" name="mode" value="html"/>
+            
+            <input type="submit" value="GET WEATHER"/>
+        </form>
+        
+        <div id="weatherData"></div>
+    </body>
+    
+</html>

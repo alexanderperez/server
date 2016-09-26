@@ -1,0 +1,53 @@
+html, body {
+    background-color: black;
+    color: white;
+    font-family: "Courier New", Lucida, Console;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 175px;
+}
+
+input[type=text] {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 200px;
+    height: 25px;
+    margin-top: -25px;
+    margin-left: -100px;
+    font-family: "Courier New", Lucida, Console;
+    font-weight: bold;
+    background-color: #ff4d4d;
+    color: black;
+    text-align: center;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: -97px;
+    font-family: "Courier New", Lucida, Console;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #ccccb3;
+}
+
+weatherData {
+    position: absolute;
+    top: 50%;
+    font-family: "Courier New", Lucida, Console;
+    font-weight: bold;
+    color: white;
+}
